@@ -130,7 +130,7 @@ header .navbar-brand img {
 .advantage-wrapper .advantage-item {
     border-top: 1px solid #c2c2c2;
     padding-top: 20px;
-    padding-bottom: 26px;
+    margin-bottom: 26px;
 }
 
 .advantage-wrapper .advantage-item:first-of-type {
@@ -360,6 +360,13 @@ footer .footer-links a:first-of-type {
         flex: 0 0 50%;
         border-top: 0;
         padding-top: 0;
+        padding-right: 24px;
+    }
+
+    .advantage-wrapper .advantage-item.bordered--lg {
+        border-left: 1px solid #c2c2c2;
+        padding-left: 36px;
+
     }
 
     /* home-loan */
