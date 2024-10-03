@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #00945f;
+}
+
 *,
 ::after,
 ::before {
@@ -17,7 +21,7 @@ body {
 
 h2, h3 {
     font-weight: 400;
-    color: #00945f;
+    color: var(--primary-color);
 }
 
 h2 {
@@ -48,7 +52,7 @@ section {
     content: '';
     width: 75px;
     height: 2px;
-    background-color: #00945f;
+    background-color: var(--primary-color);
     position: absolute;
     left: 0;
     right: 0;
@@ -75,7 +79,6 @@ header .navbar-brand img {
     max-width: 100%;
     height: 20px;
 }
-
 
 /* hero-banner */
 
@@ -178,7 +181,7 @@ header .navbar-brand img {
 .home-loan .sec-title {
     font-size: 22px;
     color: #fff;
-    background: #00945f;
+    background: var(--primary-color);
     padding: 20px 22px;
 }
 
@@ -237,7 +240,7 @@ header .navbar-brand img {
 
 /* footer */
 footer {
-    border-top: 1px solid #00945f;
+    border-top: 1px solid var(--primary-color);
     padding: 26px 18px 32px;
 }
 
@@ -307,7 +310,7 @@ footer .footer-links a {
 
 footer .privacy-info a:hover,
 footer .footer-links a:hover {
-    color: #00945f;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -335,6 +338,15 @@ footer .footer-links a:first-of-type {
     header {
         text-align: left;
         padding: 64px 36px 52px;
+    }
+
+    header > h1,
+    header > h1 .navbar-brand {
+        line-height: 35px;
+    }
+
+    header .navbar-brand img {
+        height: 35px;
     }
 
     /* search-jobs */
@@ -366,7 +378,6 @@ footer .footer-links a:first-of-type {
     .advantage-wrapper .advantage-item.bordered--lg {
         border-left: 1px solid #c2c2c2;
         padding-left: 36px;
-
     }
 
     /* home-loan */
